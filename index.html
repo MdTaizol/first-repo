@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,tr, td{ 
+            border:1px solid black;
+            border-collapse:collapse;
+            padding:25px;
+            text-align:center; 
+
+        }
+    </style>
+</head>
+<body>
+    <header><h1>HTML TABLE</h1></header>
+    <main>
+        <table>
+            <caption style="background-color:aqua;">student details</caption>
+            <colgroup>
+                <col scope="2" style="background-color:lightblue;">
+            </colgroup>
+            <head>
+                <tr>
+                    <th scope="col">NO</th>
+                    <th scope="col">Name</th> 
+                    <th scope="col">CGPA</th>
+                    
+                </tr>
+                <tr>
+                    <td scope=" col">1</td>
+                    <td>John</td>
+                    <td>3.5</td>
+                </tr>
+                <tr>
+                    <td scope="2">2</td>
+                    <td>Jane</td>
+                    <td>3.8</td>
+                 </tr>
+            </head>
+        </table>
+    </main>
+</body>
+</html>
