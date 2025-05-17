@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form>
+        <div>
+            <label for="fast name">Fast Name:</label>
+            <input type="text" name="fast name" id ="fast name" required>
+        </div><br>
+        <div>
+            <label for="last name">Last Name:</label>
+            <input type="text" name="last name" id ="last name">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id ="email">
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name ="password" id="password">
+        </div><br>
+        
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type ="date" name="dob" id="dob">
+        </div><br>
+        <div>
+            <label for="photo">Chose your photo:</label>
+            <input type="file" name="photo" id="photo">
+
+        </div><br>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">male
+            <input type="radio" name="gender" id="gender" value="female">female
+        </div><br>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option selected value="German">German</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="religion">Religion</label>
+            <input checked type="checkbox" name="religion" id="muslim" value="muslim">muslim
+            <input type="checkbox" name="religion" id="hindu" value="hindu">hindu
+        </div><br>
+        <div>
+            <label fro="department">Department</label>
+            <select name="department" id="department"> 
+                <option value="cse" selected>CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+                </select>
+            
+        </div><br>
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="50" rows="20"></textarea>
+        </div><br>
+        <div>
+            <input type="submit" value="submit" onclick="alert('congratulation')">
+            <input type="reset" value="reset" onclick="alert('clear the data')">
+
+            <input type="button" value="button" onclick="alert('Hello_its')">
+        </div>
+    </form>
+ </body>
+ </html>
